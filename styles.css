@@ -21,9 +21,11 @@
   font-weight: 500;
   transition: all 0.2s ease;
 }
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-secondary:hover {
   background: #1d4ed8;
   transform: translateY(-2px);
+  transition: transform 0.2s ease;
 }
 .btn-secondary {
   padding: 0.7rem 1.5rem;
