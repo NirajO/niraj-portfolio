@@ -108,3 +108,22 @@ html { overflow-y: scroll; }
     transform: translateY(0);
   }
 }
+
+.project-card {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 1rem;
+  padding: 1.5rem;
+  border: 1px solid #e5e7eb;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.dark .project-card {
+  background: rgba(17, 24, 39, 0.75);
+  border-color: #1f2937;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 24px rgba(0,0,0,0.15);
+}
+

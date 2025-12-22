@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Niraj Ojha</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>tailwind.config = { darkMode: "class" }</script>
+
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+
+<body class="bg-gradient-to-b from-white via-gray-50 to-blue-50
+             dark:from-gray-950 dark:via-gray-900 dark:to-gray-800
+             text-gray-900 dark:text-white">
+
+<!-- NAVBAR -->
+<nav class="navbar-glass">
+  <div class="container flex justify-between items-center py-4">
+    <h1 class="text-xl font-semibold">Niraj Ojha</h1>
+
+    <div class="flex items-center gap-6">
+      <a href="index.html">Home</a>
+      <a href="projects.html" class="text-blue-600 font-semibold">My Projects</a>
+      <a href="about.html">About Me</a>
+      <a href="contact.html">Contact Me</a>
+      <a href="resume/resume.pdf" target="_blank" class="btn-secondary">My Resume</a>
+
+      <div class="theme-switch" onclick="toggleTheme()">
+        <div class="theme-thumb">
+          <span class="sun">☀️</span>
+          <span class="moon">🌙</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- PROJECTS -->
+<main class="page">
+  <div class="container py-24">
+    <h2 class="text-4xl font-bold text-center mb-12 fade-up">
+      Projects
+    </h2>
+
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Project Card -->
+      <div class="project-card fade-up">
+        <h3 class="text-xl font-semibold mb-2">
+          Kiosk-Based Food Ordering System
+        </h3>
+        <p class="text-gray-600 dark:text-gray-300 mb-4">
+          A React-based self-service kiosk UI with dynamic menu rendering,
+          cart management, and receipt generation using browser storage.
+        </p>
+        <p class="text-sm text-gray-500 mb-4">
+          React • JavaScript • CSS
+        </p>
+        <div class="flex gap-4">
+          <a href="https://github.com/NirajO/kiosk-system" target="_blank" class="btn-primary">
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card fade-up fade-delay-1">
+        <h3 class="text-xl font-semibold mb-2">
+          Banana Token DApp
+        </h3>
+        <p class="text-gray-600 dark:text-gray-300 mb-4">
+          A Web3 frontend that interacts with an ERC-20 smart contract,
+          supporting mint, burn, and live transaction history.
+        </p>
+        <p class="text-sm text-gray-500 mb-4">
+          React • Web3 • MetaMask
+        </p>
+        <div class="flex gap-4">
+          <a href="https://github.com/NirajO/banana-dapp" target="_blank" class="btn-primary">
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card fade-up fade-delay-2">
+        <h3 class="text-xl font-semibold mb-2">
+          Tool Sharing Website
+        </h3>
+        <p class="text-gray-600 dark:text-gray-300 mb-4">
+          A responsive multi-page website featuring tool listings,
+          category filtering, and client-side interactivity.
+        </p>
+        <p class="text-sm text-gray-500 mb-4">
+          HTML • CSS • JavaScript
+        </p>
+        <div class="flex gap-4">
+          <a href="https://github.com/PrajeetBohara/letMeBorrow.com" target="_blank" class="btn-primary">
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card fade-up">
+        <h3 class="text-xl font-semibold mb-2">
+          Pile Analysis Tool
+        </h3>
+        <p class="text-gray-600 dark:text-gray-300 mb-4">
+          Desktop application UI for civil engineering analysis,
+          featuring structured forms, tabs, and interactive plots.
+        </p>
+        <p class="text-sm text-gray-500 mb-4">
+          Python • PySide6 • Matplotlib
+        </p>
+        <div class="flex gap-4">
+          <a href="https://github.com/NirajO/rspile-desktop-app" target="_blank" class="btn-primary">
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="project-card fade-up fade-delay-1">
+        <h3 class="text-xl font-semibold mb-2">
+          Tetris Game
+        </h3>
+        <p class="text-gray-600 dark:text-gray-300 mb-4">
+          A classic Tetris implementation using object-oriented
+          design, keyboard controls, and collision detection.
+        </p>
+        <p class="text-sm text-gray-500 mb-4">
+          Java
+        </p>
+        <div class="flex gap-4">
+          <a href="https://github.com/NirajO/Tetris--Object-Oriented-Programming" target="_blank" class="btn-primary">
+            GitHub
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
